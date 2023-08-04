@@ -3,7 +3,6 @@ import Statistics from './statistics.js';
 import FeedbackOptions from './feedbackOptions.js';
 import Section from './section.js';
 import Notification from './notification.js';
-import PropTypes from 'prop-types';
 
 
 
