@@ -8,16 +8,13 @@ import Notification from './notification.js';
 
 
 class App extends React.Component {
-    constructor() {
-      super();
-      this.state = {
+      state = {
         feedbackCounts: {
           good: 0,
           neutral: 0,
           bad: 0,
         },
       };
-    }
   
     handleFeedbackClick = (type) => {
       this.setState((prevState) => ({
